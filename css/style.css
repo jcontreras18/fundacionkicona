@@ -9836,12 +9836,12 @@ h6 {
   background: #dddddd;
 }
 
-.testimonial-carousel .owl-dot.active {
-  background: #ED6436;
-}
 
-.contact-form .help-block ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
+.img-circle {
+  width: 450px;
+  height: 450px;
+  border-radius: 50%; /* Hace que el contenedor sea circular */
+  overflow: hidden; /* Oculta cualquier parte de la imagen que se salga del círculo */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  text-align: center;
 }
